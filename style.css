@@ -1,0 +1,79 @@
+@import url('https://rsms.me/inter/inter.css');
+.page { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+.page { font-family: 'Inter var', sans-serif; }
+}
+  
+  .page {
+    height: 100%;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .body {
+    background-color:#a0d1f9;
+    color: #4b85d7;
+    max-width: 540px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    padding: 36px;
+    max-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+    max-width: 150px;
+  }
+  
+  .button {
+    width: 130px;
+    height: 40px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid #4b85d7;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  .button:hover {
+    opacity: 0.5;
+  }
+  
+  .image {
+    width: 100%;
+    display: block;
+    margin: 0 auto 0;
+  }
+  
+  .question {
+      color: white;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-top: 0;
+  }
+      
+  .advice {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.1;
+  }
+  
+  .footer {
+    font-size: 16px;
+    margin-top: 100px;
+  }
+
+  #323131
